@@ -1,0 +1,1122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+position: relative;
+width: 1440px;
+height: 4453px;
+background: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
+}
+
+nav{
+    position: absolute;
+    width: 1440px;
+    height: 109px;
+    left: 0px;
+    top: 0px;
+    position:fixed;
+    z-index: 10;
+    right:0;
+    padding: 0 5%;
+    font-family: sans-serif;
+    height: 100px;
+   
+
+    .LOGO{
+        position: absolute;
+        width: 100px;
+        height: 37px;
+        left: 140px;
+        top: 37px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        color: #2D487C;
+
+        span{
+            font-size: 30px;
+            font-weight: 100;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+    }
+
+    .link{
+        position: absolute;
+        width: 48px;
+        height: 26px;
+        left: 516px;
+        top: 42px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        color: #000000;
+        align-items: center;
+
+        li{
+            list-style: none;
+           margin: 0 25px;
+           color: #000000;
+        }
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: #000000;
+        }
+       
+
+    }
+}
+
+.container{
+   .sidebar{
+    position: absolute;
+    width: 529px;
+    height: 78px;
+    left: 140px;
+    top: 300px;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+    h1{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 60px;
+        color: #2D487C;
+    }
+
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #000000;
+
+    }
+    h5{
+        width: 143px;
+        height: 45px;
+        background: #E98970;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 50px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 50px;
+        letter-spacing: 1px;
+
+    }
+   }
+
+   .sidebar2{
+    position: absolute;
+    width: 693.32px;
+    height: 632.7px;
+    left: 696px;
+    top: 109px;
+   }
+}
+
+.container-satu{
+   margin-top : 918px;
+   margin-left: 140px;
+   display: flex;
+
+   .service.satu{
+    width: 344px;
+    height: 172px;
+
+    h1{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 50px;
+        /* identical to box height */   
+        color: #2D487C;
+        display: block;
+        
+    }
+    p{
+        
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    h5{
+        width: 143px;
+        height: 45px;
+        background: #E98970;
+        border-radius: 5px;
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 50px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 40px;
+        letter-spacing: 1px; 
+    }
+    .animasi{
+        position: absolute;
+        left: -0.73%;
+        top: 12.16%;
+    }
+   }
+
+   .service.dua{
+    position: absolute;
+    width: 377px;
+    height: 245px;
+    left: 533px;
+    top: 908px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 15px;  
+    padding: 50px;
+
+    h4{
+    
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+    color: #4C4C4C;
+    }
+    
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4C4C4C;
+        margin-top: 21px;
+    }
+    .pp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #2D487C;
+        margin-top: 21px;
+    }
+   }
+
+   .service.tiga{
+    position: absolute;
+    width: 377px;
+    height: 245px;
+    left: 924px;
+    top: 908px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 50px;
+
+    h4{
+    
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 34px;
+        /* identical to box height */
+        color: #4C4C4C;
+        }
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #4C4C4C;
+            margin-top: 21px;
+        }
+
+        .pp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #2D487C;
+        margin-top: 21px; 
+        }
+   }
+}
+
+.container-dua{
+    margin-left: 140px;
+    display: flex;
+    margin-top: 100px;
+
+    .Financial.dua{
+        position: absolute;
+        width: 377px;
+        height: 245px;
+        left: 533px;
+        top: 1198px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding: 50px;
+
+        h4{
+    
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 34px;
+            /* identical to box height */
+            color: #4C4C4C;
+            }
+            
+            p{
+                font-family: 'Poppins',sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #4C4C4C;
+                margin-top: 21px;
+            }
+            .pp{
+                font-family: 'Poppins',sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                color: #2D487C;
+                margin-top: 21px;
+            }
+    }
+
+    .Financial.tiga{
+        position: absolute;
+        width: 377px;
+        height: 245px;
+        left: 924px;
+        top: 1198px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding: 50px;
+
+        h4{
+    
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 34px;
+            /* identical to box height */
+            color: #4C4C4C;
+            }
+            
+            p{
+                font-family: 'Poppins',sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+                color: #4C4C4C;
+                margin-top: 21px;
+            }
+            .pp{
+                font-family: 'Poppins',sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 21px;
+                color: #2D487C;
+                margin-top: 21px;
+            }
+
+    }
+}
+
+
+.container-about{
+    margin-top: 450px;
+    margin-left: 140px;
+    display: flex;
+
+    .about.satu{
+        h2{
+            position: absolute;
+            width: 116px;
+            height: 38px;
+            left: 140px;
+            top: 1702px;
+    
+            font-family: 'Poppins' ,sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 37px;
+            /* identical to box height */
+    
+    
+            color: #2D487C;
+        }
+    }
+
+    .about.dua{
+        position: absolute;
+        width: 450px;
+        left: 298px;
+        top: 1710px;
+       
+
+        h3{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 27px;
+            color: #000000;
+
+        }
+        
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 30px;
+            color: #4C4C4C;
+
+        }
+
+        h5{
+            width: 143px;
+            height: 45px;
+            background: #E98970;
+            border-radius: 5px;
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 50px;
+            /* identical to box height */
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 40px;
+            letter-spacing: 1px; 
+        }
+    }
+
+    .about.tiga{
+        position: absolute;
+        width: 553.2px;
+        height: 438.64px;
+        left: 848px;
+        top: 1623px;
+    }
+}
+
+
+.container-Choose{
+        position: absolute;
+        width: 199px;
+        height: 38px;
+        left: 140px;
+        top: 2303px;
+
+    h2{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        /* identical to box height */
+
+
+        color: #2D487C;
+
+    }
+
+    p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4C4C4C;
+        width: 626px;
+        height: 72px;
+        left: 147px;
+        top: 2367px;
+        margin-top: 25px;
+        margin-left: 5px;
+
+    }
+}
+
+
+.container-quality {
+    margin-left: 140px;
+    margin-top: 950px;
+  
+    .commitmen.satu  {
+        position: absolute;
+        width: 375px;
+        height: 339px;
+        left: 140px;
+        top: 2512px;
+        background: #2D487C;
+        border-radius: 26px;
+        padding: 50px;
+        box-sizing: border-box;
+
+        h3{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+        }
+
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            margin-top: 35px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+
+    .commitmen.dua{
+
+        position: absolute;
+        width: 375px;
+        height: 339px;
+        left: 532px;
+        top: 2512px;
+        padding: 50px;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 26px;
+
+        h3{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 35px;
+            color: #000000;
+
+        }
+    }
+
+    .commitmen.tiga{
+        position: absolute;
+        width: 375px;
+        height: 339px;
+        left: 924px;
+        top: 2512px;
+        padding: 50px;
+        box-sizing: border-box;
+        background: #F7F6F6;
+        border-radius: 26px;
+
+        h3{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 35px;
+            color: #000000;
+            
+        }
+    }
+}
+
+
+.container-angka {
+    position: absolute;
+    width: 1440px;
+    height: 265px;
+    left: 0px;
+    top: 3020px;
+
+    background: #F7F6F6;
+
+    .div-angka{
+        margin-left: 140px;
+        display: flex;
+        margin-top: 80px;
+        text-align: center;
+        .Project.satu{
+
+            position: absolute;
+            left: 160px;
+            h1{
+                
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+               
+                /* identical to box height */
+                color: #FAB123;
+
+            }
+
+            p{
+               
+                font-family: 'Poppins' , sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+
+                color: #4C4C4C;
+        }
+        }
+
+        .Project.dua {
+            position: absolute;
+            left: 500px;
+           
+
+            h1{
+                color: #FAB123;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 61px
+            }
+
+            p{
+               
+                    font-family: 'Poppins' , sans-serif;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 36px;
+                    /* identical to box height */
+    
+    
+                    color: #4C4C4C;
+            }
+        }
+
+        .Project.tiga {
+            position: absolute;
+            left: 760px;
+
+            h1 {
+               
+            
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 61px;
+                /* identical to box height */
+                
+                
+                color: #FAB123; 
+            }
+
+            p {
+                font-family: 'Poppins' , sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+
+                color: #4C4C4C;
+
+            }
+        }
+
+        .Project.empat {
+            position: absolute;
+            left: 1080px;
+
+            h1{
+             
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 61px;
+                /* identical to box height */
+    
+    
+                color: #FAB123;
+            }
+
+            p{
+               
+                font-family: 'Poppins' , sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+
+                color: #4C4C4C;
+        }
+
+        }
+    }
+}
+
+.Testimony{
+    position: absolute;
+    width: 137px;
+    height: 38px;
+    left: 132px;
+    top: 3381px;
+    
+    h1{
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    
+    color: #2D487C;
+    }
+    
+}
+
+
+.container-testimony {
+    position: absolute;
+    width: 137px;
+    height: 38px;
+    
+    top: 3381px;
+    margin-top: 100px;
+
+    .testimony.satu{
+        position: absolute;
+        width: 600px;
+        height: 395px;
+        left: 132px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 26px;
+
+
+        p {
+            font-family: 'Poppins' ,sans-serif;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 37px;
+            text-align: center;
+
+            color: #000000;
+        }
+
+
+        .Testy{
+            position: absolute;
+            width: 535px;
+            height: 280px;
+            padding: 50px;
+            
+            .border
+             {
+                position: absolute; 
+                display: block;
+                margin-top: 20px;
+                width: 94px;
+                height: 94px; 
+                background: #C4C4C4;
+                border-radius: 50% 50% 50% 50%; 
+                margin-left: 120px;
+            }
+
+            #mony{
+                position: absolute;
+                left: 290px;
+                margin-top: 50px;
+                font-family:'Poppins' ,sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height */
+
+
+                color: #2D487C;
+
+            }
+
+        }
+
+        #pembungkus{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            margin-top: 290px;
+            position: absolute;
+            margin-left: 250px;
+
+            #span{
+                width: 15px;
+                height: 15px;
+                background: #2D487C;
+                border-radius: 50% 50% 50% 50%;
+                margin-top:-0 ;
+                margin-top: 50px;
+                margin-left: 12px;
+                
+            }
+            #span1{
+                width: 15px;
+                height: 15px;
+                background:#C4C4C4;
+                border-radius: 50% 50% 50% 50%;
+                margin-top:-0 ;
+                margin-top: 50px;
+                margin-left: 12px;
+                
+            }
+            #span2{
+                width: 15px;
+                height: 15px;
+                background:#C4C4C4;
+                border-radius: 50% 50% 50% 50%;
+                margin-top:-0 ;
+                margin-top: 50px;
+                margin-left: 12px;
+                
+            }
+        }
+    }
+
+    .testimony.dua {
+        position: absolute;
+        width: 448px;
+        height: 395px;
+        left: 851px;
+        
+    
+
+    #consulting{
+        position: absolute;
+        width: 448px;
+        height: 395px;
+        margin-top: 65px;
+        margin-left: -115px;
+       
+        h5{
+
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            color: #4C4C4C;
+            text-align: center;
+            
+
+        }
+
+        .free{
+            text-align: center;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 43px;
+            /* identical to box height */
+            color: #2D487C;
+
+        }
+
+        .pembungkusp{
+            margin-top: 40px;
+        }
+
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+           
+            color: #000000;
+
+        }
+
+
+        .button{
+        width: 143px;
+        height: 45px;
+        background: #2D487C;
+        border-radius: 10px;
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 45px;
+        /* identical to box height */
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 40px;
+        letter-spacing: 1px; 
+        margin-left: 150px;
+
+        }
+        
+
+
+       
+        
+    }
+    #img{
+        margin-left: 30px;
+        margin-top: -160px;
+        
+       
+    }
+
+    }
+}
+
+//footer//
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 405px;
+    left: 0px;
+    top: 4035px;
+
+    background: #F7F6F6;
+
+    .footer1 {
+        margin-left: 140px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        
+    }
+
+    .footer.satu {
+
+        width: 294px;
+          
+
+        h4{
+            color:#2D487C;
+            font-size: 30px;
+            height: 50px;
+            font-weight: bold;
+            font-style: normal;
+            line-height: 36,57px;
+        }
+
+        span{
+            font-size: 30px;
+            font-weight: 100;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            margin-top: 40px;
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+
+    #rootlayers{
+        margin-top: 115px;
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    .footer.dua {
+        margin-right: 100px;
+        ul{
+            list-style: none;
+            margin-top: 80px;
+            
+        }
+
+        a{  
+            text-decoration: none;
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 30px;
+            color: #1a1414;
+            
+            
+        }
+
+        
+        
+
+    }
+
+    .footer.tiga {
+        width: 420px;
+        margin-right: 160px;
+       
+
+
+        h5{
+            margin-top: 60px;
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 80px;
+            color: #000000;
+        }
+        
+        p{
+            font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            color:#4C4C4C;
+        }
+        
+        #klik{
+            display: flex;
+            margin-top: 30px;
+        }
+        #retagle{
+            width: 320px;
+            height: 45px;
+            left: 851px;
+            top: 4275px;
+            background: #FFFFFF;
+            border-radius: 10px 0px 0px 10px;
+            margin-top: 0px;
+            text-align: center;
+            color: #f5efef;
+            opacity: .5;
+        }
+        #retagle p{
+            line-height: 50px;
+        }
+        
+        #retagle1{
+            width: 128px;
+            height: 45px;
+            left: 1171px;
+            top: 4275px;
+            background: #2D487C;
+            border-radius: 0px 10px 10px 0px;
+        }
+        #retagle1 p{
+           color: white;
+           text-align: center;
+           line-height: 50px;
+           font-weight: bold;
+         }
+
+    }
+ }
+
+    .garis-biru{
+            width: 1440px;
+            height: 13px;
+            left: 0px;
+            margin-top: 10px;
+            background: #2D487C;
+            transform: matrix(1, 0, 0, -1, 0, 0);
+    }
